@@ -1,33 +1,32 @@
-# Orientacao-Objetos-Java
-Faculdade [Aula de Orientação a Objetos em Java]
+# Orientação a Objetos em Java [FACULDADE]
+Projeto desenvolvido como estudo prático dos conceitos de:
+- Encapsulamento
+- Abstração
+- Herança
+- Polimorfismo
+- Organização em camadas
 
-# Java Swing
-Java Swing é uma biblioteca da Java Foundation Classes (JFC) usada para criar interfaces gráficas (GUI) em Java.
-Ela é mais moderna e flexível que o AWT, oferecendo componentes como botões, caixas de texto, tabelas, menus e muito mais.
+## Tecnologias
+- Java 21 (LTS)
 
-----------------------
+## Objetivo
+Servir como base sólida para entendimento de arquitetura [OOP].
 
-# Os principais componentes do Swing incluem:
-## JFrame:
-Representa a janela principal de uma aplicação.
 
-## Panel:
-Um contêiner usado para organizar outros componentes.
-
-## JButton:
-Um botão que executa ações ao ser clicado.
-
-## JLabel:
-Exibe texto ou imagens.
-
-## JTextField:
-Permite a entrada de texto em uma única linha.
-
-## JTextArea:
-Permite a entrada de texto em múltiplas linhas.
-
-## JComboBox:
-Cria listas suspensas para seleção de itens.
-
-## JOptionPane:
-Exibe caixas de diálogo para mensagens ou interações.
+orientacao_objetos_java <- repo
+│
+java-oop-studies/
+│
+├── README.md
+├── .gitignore
+│
+├── java-swing/
+│   │
+│   ├── dataEntry.java ClientLayout.java
+|   ├── ClientLayout.java
+|   ├── ClientInterface.java
+│   ├── README.md
+│   └── ...
+│
+└── docs/
+    └── conceitos-estudados.md

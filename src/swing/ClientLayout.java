@@ -1,7 +1,3 @@
-// Panel
-// Componente do tipo container, dispoe outros componentes, inclusive outros paineis.
-// Oferece disposição dos elementos na interface
-
 // Importa tudo de awt e swing
 import java.awt.*;
 import javax.swing.*;
@@ -54,7 +50,7 @@ public class ClientLayout extends JFrame {
         pnBotoes.add(btnCadastrar);
         pnBotoes.add(btnAlterar);
         pnBotoes.add(btnRemover);
-        pnBotoes.add(Pesquisar);
+        pnBotoes.add(btnPesquisar);
 
         add(pnCampos, BorderLayout.CENTER);
         add(pnBotoes, BorderLayout.SOUTH);

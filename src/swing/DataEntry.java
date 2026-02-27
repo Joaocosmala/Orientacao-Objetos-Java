@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class EntradaDados {
+public class DataEntry {
     public static void main(String[] args) {
         JOptionPane.showMessageDialog(null, "Seja bem vindo ao Swing.");
 
