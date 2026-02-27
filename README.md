@@ -50,6 +50,9 @@ Cada projeto representa uma etapa de evolução dentro do processo de aprendizag
 
 ---
 
+## Tecnologias
+- Java 21 (LTS)
+
 ## 🎯 Objetivo do Repositório
 Construir uma base sólida em Java por meio de prática contínua, organização de código e experimentação estruturada.
 
