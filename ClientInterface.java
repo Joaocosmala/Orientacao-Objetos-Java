@@ -1,5 +1,7 @@
 import javax.swing.JButton;
 import javax.swing.JFrame;
+import javax.swing.JTextField;
+import javax.swing.JLabel;
 
 public class ClientInterface extends JFrame {
         // 1 - Declarar os componentes da interface gráfica.
@@ -10,6 +12,8 @@ public class ClientInterface extends JFrame {
     public ClientInterface() {
         setTitle("Exemplo de Cadastro");
         setSize(600, 300);
+         // [Padrão para java.awt.Panel] Gerenciador de Layout (Atua apenas horizontalmente)
+         // Coloca os componentes sequencialmente da esquerda para a direita
         setLayout(new FlowLayout());
 
         // 2 - Construir o componente da interface gráfica.
